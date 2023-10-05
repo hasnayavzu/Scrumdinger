@@ -10,6 +10,7 @@
 		3007B5672ACF109D006FC9E9 /* Theme.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3007B5662ACF109D006FC9E9 /* Theme.swift */; };
 		3007B5692ACF11A3006FC9E9 /* DailyScrum.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3007B5682ACF11A3006FC9E9 /* DailyScrum.swift */; };
 		3007B56B2ACF1389006FC9E9 /* CardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3007B56A2ACF1389006FC9E9 /* CardView.swift */; };
+		30239E3A2ACF219E008E3BEB /* TrailingIconLabelStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30239E392ACF219E008E3BEB /* TrailingIconLabelStyle.swift */; };
 		30AD14B12ACEA16300E37DC3 /* ScrumdingerApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30AD14B02ACEA16300E37DC3 /* ScrumdingerApp.swift */; };
 		30AD14B32ACEA16300E37DC3 /* MeetingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30AD14B22ACEA16300E37DC3 /* MeetingView.swift */; };
 		30AD14B52ACEA16400E37DC3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 30AD14B42ACEA16400E37DC3 /* Assets.xcassets */; };
@@ -20,6 +21,8 @@
 		3007B5662ACF109D006FC9E9 /* Theme.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Theme.swift; sourceTree = "<group>"; };
 		3007B5682ACF11A3006FC9E9 /* DailyScrum.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DailyScrum.swift; sourceTree = "<group>"; };
 		3007B56A2ACF1389006FC9E9 /* CardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardView.swift; sourceTree = "<group>"; };
+		30239E382ACF20AA008E3BEB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		30239E392ACF219E008E3BEB /* TrailingIconLabelStyle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrailingIconLabelStyle.swift; sourceTree = "<group>"; };
 		30AD14AD2ACEA16300E37DC3 /* Scrumdinger.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Scrumdinger.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		30AD14B02ACEA16300E37DC3 /* ScrumdingerApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScrumdingerApp.swift; sourceTree = "<group>"; };
 		30AD14B22ACEA16300E37DC3 /* MeetingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MeetingView.swift; sourceTree = "<group>"; };
@@ -66,10 +69,12 @@
 		30AD14AF2ACEA16300E37DC3 /* Scrumdinger */ = {
 			isa = PBXGroup;
 			children = (
+				30239E382ACF20AA008E3BEB /* Info.plist */,
 				3007B5652ACF1089006FC9E9 /* Models */,
 				30AD14B02ACEA16300E37DC3 /* ScrumdingerApp.swift */,
 				30AD14B22ACEA16300E37DC3 /* MeetingView.swift */,
 				3007B56A2ACF1389006FC9E9 /* CardView.swift */,
+				30239E392ACF219E008E3BEB /* TrailingIconLabelStyle.swift */,
 				30AD14B42ACEA16400E37DC3 /* Assets.xcassets */,
 				30AD14B62ACEA16400E37DC3 /* Preview Content */,
 			);
@@ -155,6 +160,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				3007B5692ACF11A3006FC9E9 /* DailyScrum.swift in Sources */,
+				30239E3A2ACF219E008E3BEB /* TrailingIconLabelStyle.swift in Sources */,
 				3007B5672ACF109D006FC9E9 /* Theme.swift in Sources */,
 				30AD14B32ACEA16300E37DC3 /* MeetingView.swift in Sources */,
 				30AD14B12ACEA16300E37DC3 /* ScrumdingerApp.swift in Sources */,
@@ -295,6 +301,7 @@
 				DEVELOPMENT_TEAM = 63C6GDV6M6;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Scrumdinger/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -325,6 +332,7 @@
 				DEVELOPMENT_TEAM = 63C6GDV6M6;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Scrumdinger/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
