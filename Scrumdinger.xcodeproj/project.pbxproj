@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3007B5672ACF109D006FC9E9 /* Theme.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3007B5662ACF109D006FC9E9 /* Theme.swift */; };
+		3007B5692ACF11A3006FC9E9 /* DailyScrum.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3007B5682ACF11A3006FC9E9 /* DailyScrum.swift */; };
+		3007B56B2ACF1389006FC9E9 /* CardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3007B56A2ACF1389006FC9E9 /* CardView.swift */; };
 		30AD14B12ACEA16300E37DC3 /* ScrumdingerApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30AD14B02ACEA16300E37DC3 /* ScrumdingerApp.swift */; };
 		30AD14B32ACEA16300E37DC3 /* MeetingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30AD14B22ACEA16300E37DC3 /* MeetingView.swift */; };
 		30AD14B52ACEA16400E37DC3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 30AD14B42ACEA16400E37DC3 /* Assets.xcassets */; };
@@ -14,6 +17,9 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		3007B5662ACF109D006FC9E9 /* Theme.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Theme.swift; sourceTree = "<group>"; };
+		3007B5682ACF11A3006FC9E9 /* DailyScrum.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DailyScrum.swift; sourceTree = "<group>"; };
+		3007B56A2ACF1389006FC9E9 /* CardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardView.swift; sourceTree = "<group>"; };
 		30AD14AD2ACEA16300E37DC3 /* Scrumdinger.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Scrumdinger.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		30AD14B02ACEA16300E37DC3 /* ScrumdingerApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScrumdingerApp.swift; sourceTree = "<group>"; };
 		30AD14B22ACEA16300E37DC3 /* MeetingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MeetingView.swift; sourceTree = "<group>"; };
@@ -32,6 +38,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		3007B5652ACF1089006FC9E9 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				3007B5662ACF109D006FC9E9 /* Theme.swift */,
+				3007B5682ACF11A3006FC9E9 /* DailyScrum.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
 		30AD14A42ACEA16300E37DC3 = {
 			isa = PBXGroup;
 			children = (
@@ -51,8 +66,10 @@
 		30AD14AF2ACEA16300E37DC3 /* Scrumdinger */ = {
 			isa = PBXGroup;
 			children = (
+				3007B5652ACF1089006FC9E9 /* Models */,
 				30AD14B02ACEA16300E37DC3 /* ScrumdingerApp.swift */,
 				30AD14B22ACEA16300E37DC3 /* MeetingView.swift */,
+				3007B56A2ACF1389006FC9E9 /* CardView.swift */,
 				30AD14B42ACEA16400E37DC3 /* Assets.xcassets */,
 				30AD14B62ACEA16400E37DC3 /* Preview Content */,
 			);
@@ -137,8 +154,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3007B5692ACF11A3006FC9E9 /* DailyScrum.swift in Sources */,
+				3007B5672ACF109D006FC9E9 /* Theme.swift in Sources */,
 				30AD14B32ACEA16300E37DC3 /* MeetingView.swift in Sources */,
 				30AD14B12ACEA16300E37DC3 /* ScrumdingerApp.swift in Sources */,
+				3007B56B2ACF1389006FC9E9 /* CardView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -280,7 +300,7 @@
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				IPHONEOS_DEPLOYMENT_TARGET = 16.6;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -310,7 +330,7 @@
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				IPHONEOS_DEPLOYMENT_TARGET = 16.6;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
